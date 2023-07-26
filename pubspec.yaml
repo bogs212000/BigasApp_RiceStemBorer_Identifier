@@ -1,0 +1,36 @@
+name: bigas
+description: A new Flutter project.
+publish_to: 'none'
+version: 2.0.2+2
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  change_app_package_name: ^1.1.0
+  flutter:
+    sdk: flutter
+  flutter_spinkit: ^5.1.0
+  flutter_svg: ^2.0.1
+  google_fonts: ^4.0.3
+  image_picker: ^0.8.6+1
+  shared_preferences: ^2.0.17
+  tflite: ^1.1.2
+  tflite_flutter: ^0.9.5
+  url_launcher: ^6.1.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - image/
+    - image/logo.png
+    - image/sample.jpg
+    - image/background.jpg
+
